@@ -3,6 +3,7 @@ const fs = require("node:fs/promises");
 
 (async () => {
   let chunkCount = 0;
+  let readChunkCount = 0;
   const fileHandleRead = await fs.open("mediumFile.txt", "r");
   const fileHandleWrite = await fs.open("destination.txt", "w");
 
@@ -22,6 +23,7 @@ const fs = require("node:fs/promises");
   );
 
   readableStream.on("data", (chunk) => {
+    readChunkCount = readChunkCount + 1;
     // writableStream.write(chunk);
     // chunkCount = chunkCount + 1;
     // but we know that here our chunk size is 64KiB and our writable internal buffer size is 16KiB so we might loose some data
@@ -46,6 +48,7 @@ const fs = require("node:fs/promises");
     console.log("Done Reading");
     fileHandleRead.close();
     console.log("Chunk Count: ", chunkCount);
+    console.log("Read Chunk Count: ", readChunkCount);
   });
   console.timeEnd("read_write");
 })();
