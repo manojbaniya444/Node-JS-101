@@ -44,7 +44,7 @@ async function appendFile(filePath, content) {
   try {
     const file = await fs.open(filePath, "a");
     await file.write(content);
-    console.log("New content added to the file successful.")
+    console.log("New content added to the file successful.");
   } catch (error) {
     console.log("Error appending to file: ");
   }
