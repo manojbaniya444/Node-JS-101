@@ -17,17 +17,17 @@ This repository serves as a collection of practice code for exploring and unders
 
 ## Buffer
 
-Explore the Buffer module, which provides a way to handle binary data directly in Node.js. The [buffer.js](buffer/buffer.js) script demonstrates various operations related to buffers.
+Explore the Buffer module, which provides a way to handle binary data directly in Node.js. The [buffer.js](Buffer/buffer.js) script demonstrates various operations related to buffers.
 
 ## File System
 
-Delve into the File System module, offering capabilities for interacting with the file system. The [filesystem.js](file-system/filesystem.js) script showcases common file operations.
+Delve into the File System module, offering capabilities for interacting with the file system.
 
 ## Streams
 
-Understand the Streams module, which enables efficient handling of data flows. The [streams.js](streams/streams.js) script demonstrates the usage of readable and writable streams.
+Understand the Streams module, which enables efficient handling of data flows. The [streams.js](Streams/readable_streams/read_write2.js) script demonstrates the usage of readable and writable streams.
 
 ## Event Emitter
 
-Learn about the Event Emitter module, a fundamental building block for creating custom events in Node.js. The [event-emitter.js](event-emitter/event-emitter.js) script illustrates the basic usage of event emitters.
+Learn about the Event Emitter module, a fundamental building block for creating custom events in Node.js.
 
