@@ -9,7 +9,7 @@ const { Buffer } = require("node:buffer");
   console.time("write");
 
   let i = 0;
-  const numberOfWrites = 1000000;
+  const numberOfWrites = 10000000;
   async function writeMany() {
     // we wan to write 1 million times
     // run this loop from 0 to 1 million
@@ -49,4 +49,6 @@ const { Buffer } = require("node:buffer");
 })();
 
 // Execution time: 3.1 seconds (1 million) and 21.5 seconds (10 million)
-//
+// Memory ususage :Normal vs code: 770 MB
+// After running this code: 850 MB
+// Memory usage increased by 80 MB
