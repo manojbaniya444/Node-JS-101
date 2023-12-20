@@ -14,7 +14,7 @@ const fs = require("node:fs/promises");
 
   let i = 0;
 
-  const numberOfWrites = 1000000;
+  const numberOfWrites = 10000000;
   let drainCount = 0;
 
   const writeMany = () => {
