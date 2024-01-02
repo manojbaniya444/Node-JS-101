@@ -11,10 +11,11 @@ server.on("connection", async (socket) => {
     // first chunk data
     // console.log("new chunk received from the client");
     if (!fileHandler) {
+      socket.pause();
       const idx = chunkData.indexOf("---------");
-      fileName = chunkData.toString("utf-8").substring(9, idx);
+      fileName = chunkData.subarray(9, idx).toString();
       console.log("The file name is", fileName);
-      console.log("How many times");
+      // console.log("How many times");
       try {
         fileHandler = await fs.open(`./storage/${fileName}`, "w");
       } catch (error) {
@@ -41,7 +42,7 @@ server.on("connection", async (socket) => {
     writeStream = undefined;
     fileHandler = undefined;
     fileName = undefined;
-    socket.destroy()
+    socket.destroy();
   });
 
   // !Handling stream by pipe not let us know about the file name and file type so it is not a good idea to use pipe here
