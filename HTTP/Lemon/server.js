@@ -2,19 +2,9 @@ const Lemon = require("./Lemon");
 
 const app = new Lemon();
 
-//---------Middlewares---------
-
-app.before((req, res, next) => {
-  if (Math.floor(Math.random() * 10) % 2 === 0) {
-    res.status(500);
-    res.json({ message: "Error: 500" });
-  } else {
-    next();
-  }
-});
-
+//---------Body Parser---------
+app.bodyParser();
 //---------Routes---------
-
 app.route("get", "/", (req, res) => {
   res.sendFile("../web-server/public/index.html", "text/html");
 });
@@ -29,6 +19,11 @@ app.route("get", "/style.css", (req, res) => {
 
 app.route("get", "/about", (req, res) => {
   res.sendFile("../web-server/public/index.html", "text/html");
+});
+
+app.route("post", "/login", (req, res) => {
+  const { username, password } = req.body;
+  res.status(200).json({ message: "Login successful", username, password });
 });
 
 app.listen(9000, () => {
