@@ -1,6 +1,10 @@
 # Streams
 - In Node js streams are objects that enable us to read or write data continuously. They provide an efficient way to handle large amount of data continuously. They provide an efficient way to handle large amounts  of data by breaking it into smaller chunks, which can be processed or transmitted piece by piece. There are several types of streams in node js.
 
+- A stream is an abstract interface for working with streaming data in Node.js
+
+- The **node:stream" provides an API for implementing the stream interface.
+
 ## Types of streams
 1) ### Readable Streams
 - These are used for reading data. Examples include reading a file or receiving a HTTP request.
