@@ -1,0 +1,11 @@
+{
+  "name": "http-from-net",
+  "version": "1.0.0",
+  "description": "HTTP using net module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manoj Baniya",
+  "license": "ISC"
+}
