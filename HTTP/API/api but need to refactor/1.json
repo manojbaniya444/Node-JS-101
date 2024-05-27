@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Iphone",
+    "category": "Electronics",
+    "description": "This is new Iphone 15.",
+    "price": 999
+  },
+  {
+    "id": 2,
+    "name": "Tshirt",
+    "category": "Clothing",
+    "description": "New summer tshirt.",
+    "price": 20
+  },
+  {
+    "id": 3,
+    "name": "bag",
+    "description": "waterproff bag",
+    "price": 15,
+    "category": "accessories"
+  },
+  {
+    "id": 4,
+    "name": "mobile",
+    "description": "This is redmi note 9 pro",
+    "price": 200,
+    "category": "electronics and appliances"
+  }
+]
