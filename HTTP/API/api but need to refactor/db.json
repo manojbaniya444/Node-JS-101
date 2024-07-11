@@ -1,11 +1,3 @@
 {
-  "products": [
-    {
-      "id": 1,
-      "name": "mobile",
-      "description": "This is redmi note 9 pro",
-      "price": 200,
-      "category": "electronics and appliances"
-    }
-  ]
+    "products": []
 }
