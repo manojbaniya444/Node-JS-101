@@ -6,28 +6,13 @@ Node.js is a powerful runtime that allows developers to build scalable, networke
 
 This repository serves as a collection of practice code for exploring and understanding these core modules. Each module is implemented in a separate script to demonstrate its functionality and usage.
 
-## Table of Contents
-
-1. [Buffer](#buffer)
-2. [File System](#file-system)
-3. [Streams](#streams)
-4. [Event Emitter](#event-emitter)
-5. [Contributing](#contributing)
-6. [License](#license)
-
-## Buffer
-
-Explore the Buffer module, which provides a way to handle binary data directly in Node.js. The [buffer.js](Buffer/buffer.js) script demonstrates various operations related to buffers.
-
-## File System
-
-Delve into the File System module, offering capabilities for interacting with the file system.
-
-## Streams
-
-Understand the Streams module, which enables efficient handling of data flows. The [streams.js](Streams/readable_streams/read_write2.js) script demonstrates the usage of readable and writable streams.
-
-## Event Emitter
-
-Learn about the Event Emitter module, a fundamental building block for creating custom events in Node.js.
-
+## Here in this repository it contains all the node js core concepts I learned with projects
+- Buffers
+- Event Emitters
+- File System
+- HTTP
+- Networking
+- Path
+- Readline
+- Streams
+- UNIX
