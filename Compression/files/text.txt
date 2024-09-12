@@ -1,0 +1,6 @@
+cat sat on a mat
+mat is wet
+dog chase cat
+cat sat on table
+table is wet
+dog likes cat
