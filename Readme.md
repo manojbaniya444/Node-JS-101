@@ -16,3 +16,5 @@ This repository serves as a collection of practice code for exploring and unders
 - Readline
 - Streams
 - UNIX
+- Compression
+- Multithreading
