@@ -65,6 +65,7 @@ Nerworking concept in Node js by building Network applications with net module
 - [Networking Module Core from NODE JS](./Networking/net%20module/)
 - [Chat App using NET Socket](./Networking/project1/)
 - [Large File Uploader with NET Socket](./Networking/project2/)
+- [HTTP using net in NODE JS](./Networking/http%20from%20net/)
 
 ## Readline
 
@@ -93,3 +94,10 @@ Understanding about Threads with worker threads in Node Js.
 - [Solving HTTP Blocking with threading in NODE JS](./Multithreading/HTTP%20blocking/)
 - [Thread Communication in NODE](./Multithreading/thread%20communication/)
 - [ZLIP Heavy task in threading in NODE](./Multithreading/Zlib%20Heavy/)
+
+## Compression
+
+Understanding Compression in Node Js with zlib module.
+
+- [zlib in NODE](./Compression/zlib.js)
+- [Compression in HTTP Response](./Compression/httpCompress.js)
