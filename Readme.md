@@ -57,6 +57,7 @@ HTTP Programming in Node js by building HTTP Application in Node Js with http mo
 - [API Server using HTTP in NODE JS](./HTTP/API/)
 - [Simple web server using LEMON library](./HTTP/web-server/)
 - [Understanding HTTP Cookies](./HTTP/HTTP%20cookies/)
+- [HTTP Proxy Server](./HTTP/Load%20Balancer/)
 
 ## Networking
 
